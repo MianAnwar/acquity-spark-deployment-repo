@@ -1,0 +1,109 @@
+$gray: #9B9B9B;
+$lightgrey: #989898;
+$dark-gray: #2E384D;
+$btn-border: #B0BAC5;
+$blue:#1F496A;
+$dark-blue: #213463;
+$base-color: #505050;
+$blue-hover: rgba(31, 73, 106, 0.1);
+$border-search: #E4E4E4;
+$drag-background: #FAFAFA;
+$drag-border: rgba(51, 51, 51, 0.5);
+$black: #333;
+$dark-black: #323030;
+$white: #fff;
+$head-bg: #E0EFF7;
+$light-blue: #3C79A8;
+$progress:#01B8AA;
+$progress-bk: rgba(1, 184, 170, 0.1);
+$check-gray: #C8C8C8;
+$body-color: #F3F5F8;
+$base-font-sans-serif: 'Arial',
+'Helvetica Neue',
+'Helvetica',
+sans-serif;
+$base-font-serif: 'Times New Roman',
+'Times',
+'Baskerville',
+'Georgia',
+serif;
+$even: #F6F6F6;
+$odd : #E8EBF2;
+$select :#52575A;
+$scroll:#3C79A8;
+$hover-blue: #0095E6;
+$hover-blue-light: rgba(#0095E6, 0.09);
+$border-color: #0083CA;
+$scroll-bg: #EBF1F6;
+$red: #DB5454;
+$pale-red: #F16B38;
+$orange: #F5A623;
+$select-border: #DFE2E6;
+$aside-hover: #1F3F5D;
+$border: #DEDEDE;
+$rule-bg: #56768F;
+$line: #E2E2E2;
+$btnFilter: #666;
+$chip-bg: #EAEAEA;
+$primary: rgba(51, 51, 51, 0.25);
+$green: #62B762;
+$mail: #777;
+$icon-bg: #547AA7;
+$icon-alert: #FFA26B;
+$selected: #E3E4E8;
+$purple: #4349FF;
+$opacity-blue: #e5f4fc;
+$aside-border: #566e85;
+$border-gray: #ccc;
+$light-gray: #e9ecee;
+
+/****New added colors****/
+$danube: #69A6D2;
+$bombay: #b2b3b5;
+$roman: #da5453;
+$dove-gray: #656565;
+$jaffa: #E98642;
+$fuchsia-blue: #6555C5;
+$astronaut :#2A3F74;
+$casper :#B0BECF;
+$slate-gray :#67758D;
+$silver :#C4C4C4;
+$silver-chalice :#acaaaa;
+$catskill-white:#F4F7FA;
+$alto :#dddddd;
+$curious-blue :#2199e8;
+$athens-gray:#F5F5F7;
+// Body
+$base-text-color: $black !default;
+$base-background-color: $white !default;
+$font-size-base: 14px !default;
+$line-height-base: 1.2 !default;
+$base-font-family: $base-font-sans-serif !default;
+$vertical-rhythm: ($line-height-base * 1em);
+$base-min-width: 320px;
+
+// Liks
+$base-link-color: $light-blue;
+
+// Buttons 
+$btn-color: $white !default;
+$btn-background: $black !default;
+$btn-padding: 0.4em 0.7em !default;
+$btn-font-size: inherit !default;
+
+// Forms
+$form-element-padding: $btn-padding !default;
+$form-element-border-color: $gray !default;
+$form-element-focus-border-color: $black !default;
+$placeholder-color: $gray !default;
+
+// Headers
+$h1-size: 30px !default;
+$h2-size: 27px !default;
+$h3-size: 24px !default;
+$h4-size: 20px !default;
+$h5-size: 16px !default;
+$h6-size: 14px !default;
+$headings-font-family: inherit !default;
+$headings-color: $base-color;
+$animation-speed: 0.3s;

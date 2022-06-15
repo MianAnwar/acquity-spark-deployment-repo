@@ -1,0 +1,62 @@
+{
+  "BASE_ES_API_ENDPOINT": "http://localhost:7200/api/",
+  "BASE_API_ENDPOINT": "http://localhost:7000/api/",
+  "specialCharacters": "*,^,%,$,#,~",
+  "exportFileMaxSize": "50000",
+  "gridMaxSize": "1000",
+  "pageSizes": [
+    10,
+    25,
+    50,
+    100
+  ],
+  "RuleScheduleJobId": 1,
+  "filterFromDateDays": 700,
+  "AuthClientId": "bcdf6b9c-83de-47cc-a4c4-564049b8e4bc",
+  "AuthTenantId": "bec59ecd-6927-40d7-a187-8ee6eed73f2c",
+  "AuthGraphScopes": [
+    "https://graph.microsoft.com/Directory.Read.All",
+    "User.Read",
+    "Directory.Read.All"
+  ],
+  "AuthScopes": [
+    "api://bcdf6b9c-83de-47cc-a4c4-564049b8e4bc/api-access",
+    "User.Read",
+    "Directory.Read.All"
+  ],
+  "AuthScopes1": "['openid', 'profile', 'User.Read', 'Directory.Read.All', 'offline_access', 'api://bcdf6b9c-83de-47cc-a4c4-564049b8e4bc/api-access']",
+  "PowerBiScopes": [
+    "https://analysis.windows.net/powerbi/api/Tenant.ReadWrite.All",
+    "https://analysis.windows.net/powerbi/api/Report.Read.All",
+    "https://analysis.windows.net/powerbi/api/Dashboard.Read.All",
+    "https://analysis.windows.net/powerbi/api/Workspace.Read.All"
+  ],
+  "cacheLocation": "sessionStorage",
+  "redirectUri": "http://localhost:4200/callback",
+  "defaultBIDashboardID": "8503178c-2e14-49de-be15-884bcc02cf2c",
+  "defaultBIDashboardReportID": "35838e6e-f2fe-4b28-afec-246689c87a0b",
+  "defaultBIDashboardWorkspaceID": "e9106e26-c5d0-49a5-bfd5-1bf298e02153",
+  "roles": [
+    {
+      "Name": "Company_Admin",
+      "Key": "ac52a04b-1976-41cf-83ee-9d24a3c9cf50"
+    },
+    {
+      "Name": "BI_Admin",
+      "Key": "5986185c-fc52-49fe-9988-bc9c42155f93"
+    },
+    {
+      "Name": "Admin",
+      "Key": "4dc6cf6d-8f6a-46c1-9f1c-b5444f5447f4"
+    },
+    {
+      "Name": "CSR",
+      "Key": "d62b9d75-8931-470b-a1e1-db1dc68a96bd"
+    },
+    {
+      "Name": "Simple",
+      "Key": ""
+    }
+  ],
+  "exportJobName": "MDM_ExportJob"
+}

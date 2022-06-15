@@ -1,0 +1,162 @@
+.import {
+  padding-bottom: 20px;
+
+  .import-file {
+    padding: 20px 20px 0;
+    border-radius: 5px;
+    overflow: hidden;
+
+    .drop-area {
+      padding: 30px 0 20px;
+
+      h2 {
+        margin: 20px 0;
+      }
+
+      .create {
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+
+      .fake-btn {
+        display: inline-block;
+        font-size: 14px;
+        padding: 7px 25px;
+        color: $blue;
+        border: 1px solid $blue;
+        border-radius: 4px;
+        font-weight: 700;
+
+        i {
+          margin-right: 10px;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .upload-popup {
+      margin-top: 30px;
+      border: 1px solid $border-search;
+      border-radius: 5px;
+      background: $white;
+
+      .popup-detail {
+        position: relative;
+        padding: 20px 7px;
+        border-bottom: 1px solid $border-search;
+
+        .upload-img {
+          display: inline-block;
+          vertical-align: top;
+
+          i {
+            font-size: 50px;
+            color: $gray;
+          }
+        }
+
+        .upload-details {
+          display: inline-block;
+          width: 92%;
+          vertical-align: top;
+          padding-left: 15px;
+
+          p {
+            margin-bottom: 20px;
+            font-weight: normal;
+          }
+
+          .progress {
+            border-radius: 20px;
+
+            .progress-bar {
+              border-radius: 20px;
+              background-color: $progress;
+            }
+          }
+        }
+
+        .close {
+          position: absolute;
+          top: 10px;
+          right: 14px;
+          color: $blue;
+          box-sizing: border-box;
+          font-size: 20px;
+          z-index: 1;
+          opacity: 1;
+
+          .fa-check-circle {
+            color: $progress;
+          }
+        }
+      }
+
+      .problem {
+        padding: 8px;
+
+        p {
+          margin: 0;
+          font-size: 12px;
+          color: $drag-border;
+        }
+      }
+
+      &.failed {
+        .progress-bar {
+          background-color: $red !important;
+        }
+
+        .close {
+          color: $red;
+        }
+      }
+    }
+
+    .buttons {
+      padding: 8px 12px;
+      text-align: right;
+    }
+
+    .icon-img {
+      margin-bottom: 30px;
+
+      img {
+        width: 70px;
+      }
+    }
+  }
+}
+
+/*Breadcrumbs */
+
+.breadcrumb {
+  padding: 0 30px 5px;
+  background: none;
+  margin: 0 0 20px 0;
+  font-size: 12px;
+  border-bottom: 1px solid $border;
+  border-radius: 0;
+  color: $drag-border;
+
+  i {
+    font-size: 14px;
+  }
+
+  .active {
+    color: $hover-blue;
+
+    a {
+      color: $hover-blue;
+    }
+  }
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  content: "\f105";
+  font-family: fontawesome;
+}
+
+.dz-preview.dz-file-preview {
+  transform: translateY(75%);
+}

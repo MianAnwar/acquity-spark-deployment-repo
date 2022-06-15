@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 22 24" xmlns="http://www.w3.org/2000/svg">
+<title>spreadsheet</title>
+<desc>Created with Sketch.</desc>
+<g fill="none" fill-rule="evenodd">
+<g transform="translate(-1)">
+<g transform="translate(1)">
+<path d="m21.363 0h-21.339v23.953h12.497c0.77395 0 1.4757-0.31488 1.9839-0.82311 9.137e-4 9.137e-4 6.036-6.0342 6.036-6.0342 0.50731-0.50914 0.82219-1.2109 0.82219-1.9848v-15.111zm-5.1292 17.918-2.4059 2.4059v-2.4059h2.4059z" fill="#fff"/>
+<path d="m17.056 2.807h-12.725v12.304h12.725v-12.304zm-1.4035 5.2866h-1.8246v-3.8831h1.8246v3.8831zm-1.8246 1.4035h1.8246v1.4035h-1.8246v-1.4035zm-1.4035 1.4035h-6.6901v-1.4035h6.6901v1.4035zm0-6.6901v3.8831h-6.6901v-3.8831h6.6901zm-6.6901 8.0936h6.6901v1.4035h-6.6901v-1.4035zm8.0936 1.4035v-1.4035h1.8246v1.4035h-1.8246z" fill="#1F496A" fill-rule="nonzero"/>
+</g>
+</g>
+</g>
+</svg>
